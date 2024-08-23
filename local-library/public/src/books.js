@@ -1,9 +1,11 @@
+// Function to find an author by their ID
 function findAuthorById(authors, id) {
-  // YOUR SOLUTION HERE
+  return authors.find(author => author.id === id);
 }
 
+// Function to find a book by its ID
 function findBookById(books, id) {
-  // YOUR SOLUTION HERE
+  return books.find(book => book.id === id);
 }
 
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
